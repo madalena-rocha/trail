@@ -40,3 +40,5 @@ Estória: Como usuário, preciso verificar quem estou seguindo e quem me segue.
 Atividades: 
 
 - Criar um modal para mostrar os seguidores.
+
+[Clique aqui](https://www.figma.com/file/qeK9X287oma8fMxfOJ4xld/dev-strangers?node-id=0%3A1) para acessar o laout do projeto.
