@@ -6,11 +6,6 @@ import comment from '../../assets/images/Comment.svg'
 const Posts = () => {
   return (
     <section className='main__posts'>
-      
-      <div className='posts__divsion'>
-        <h4 className='divsion__title'>Postagens</h4>
-        <span className='divsion__line'></span>
-      </div>
 
       <div className='posts__filter'>
         <button className='filter__dropdown'>Filtro
