@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import Container from "../../components/Container";
+import Division from "../../components/Division";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Highlights from "../../components/Highlights";
@@ -11,11 +12,12 @@ const Home = () => {
     <div>
       <Container>
         <Header/>
-        <Main>
-          <Banner/>
-          <Highlights/>
-          <Posts/>
-        </Main>
+          <Main>
+            <Banner/>
+            <Highlights/>
+            <Division title='Publicações'/>
+            <Posts/>
+          </Main>
         <Footer/>
       </Container>
     </div>

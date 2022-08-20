@@ -4,12 +4,13 @@ import bolivia from '../../assets/images/Bolivia.svg';
 import peru from '../../assets/images/Peru.svg';
 import berlim from '../../assets/images/Berlim.svg';
 import rio from '../../assets/images/Rio.svg';
+import Gradient from '../../components/Gradient';
 
 const Banner = () => {
   return (
     <section className='main__banner'>
-
-      <div className='banner__background'></div>
+      
+      <Gradient/>
 
       <div className='banner__box'>
         <img src={sidney} alt="" />
