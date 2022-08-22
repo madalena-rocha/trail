@@ -101,6 +101,17 @@ export default function SignIn() {
                     <div className="sign-in__button__group">
                         <button className="sign-in__button">Login</button>
 
+                        {
+                            warning.show 
+                            && 
+                            <span className='warning'>{ warning.message }</span>
+                            /*
+                               O estado warning tem duas propriedades, o show e o message
+                                Quando der erro, muda o valor do show para true
+                                Se a condição for verdadeira, exibe a mensagem de aviso para o usuário
+                            */
+                        }
+
                         <Link to="/sign-up" className="sign-up__link">
                             <button className="sign-up__button">Cadastre-se</button>
                         </Link>
