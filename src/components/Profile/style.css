@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); 
+
+.Profile {
+    margin-top: -60px;
+}
+.imgProfile{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+.Informações {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 25px;
+    
+}
+.Profile_bio {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+}
+.Bio {
+    width: 407px;
+    height: 143px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    margin-left: 35px;
+}
+.título {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+
+    color: #FFFFFF;
+}
+.Nome {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+.Usuário {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9D9D9;
+}
+.btn {
+    all:unset;
+    cursor: pointer;
+
+    width: 85px;
+    height: 30.44px;
+    
+    background: rgba(155, 87, 222, 0.52);
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.Sobre {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-top: 35px;
+}
+
+ .lugares {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+   
+    margin-top: 45px;
+    margin-left: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #D9D9D9;
+  
+ }
+ 
+.Locais_fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 15px;
+    margin-top: 25px;
+ 
+   
+     
+}
+.adicinar {
+    cursor: pointer;
+    margin-left: 25px;
+    width: 125px;
+    height: 125px;
+}
+.img {
+    margin-left: 25px;
+    width: 125px;
+    height: 125px;
+}
