@@ -26,8 +26,3 @@ export default function MyRoutes() {
         </BrowserRouter>
     )
 }
-
-/* Sempre que digitar /profile, não entra direto no Profile, entra primeiro 
-no componente ProtectedRoute e faz a verificação do token, se tiver tudo ok, 
-exibe o Outlet, que é a rota do Profile que está sendo passada para esse 
-componente */

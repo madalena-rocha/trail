@@ -55,14 +55,6 @@ export default function SignIn() {
         }
     }
 
-    /*
-        Ao clicar para submeter o formulário, entra no handleSubmit, usa o preventDefault, inicializa o array users vazio e verifica se existem usuários cadastrados
-        Se existir, pega esses usuários, salva dentro do array users e faz a verificação se dentro desse array de usuários existe o usuário que deseja logar
-        Se encontrar, a variável user será verdadeira, entrando dentro do if, se não encontrar, será falso, entra no else e exibe a mensagem 'Usuário ou senha inválidos!'
-        Caso não possua nenhum usuário cadastrado, quando digitar para entrar, localStorage.getItem('users') será falso, pois o users ainda não existe
-        Como não existe, cai no else, a parte do warning vai recarregar, o warning.show será verdadeiro e exibirá a mensagem 'Nenhum usuário cadastrado!'
-    */
-
     return (
         <Container>
             <section className="sign-in">
@@ -105,11 +97,6 @@ export default function SignIn() {
                             warning.show 
                             && 
                             <span className='warning'>{ warning.message }</span>
-                            /*
-                               O estado warning tem duas propriedades, o show e o message
-                                Quando der erro, muda o valor do show para true
-                                Se a condição for verdadeira, exibe a mensagem de aviso para o usuário
-                            */
                         }
 
                         <Link to="/sign-up" className="sign-up__link">

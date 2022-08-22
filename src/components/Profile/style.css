@@ -83,7 +83,7 @@
     line-height: 19px;
 }
 
-.about { /* estava como .Sobre, troquei para .about, mas não encontrei esta classe no arquivo index.js */
+.about {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
