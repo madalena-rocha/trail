@@ -1,7 +1,7 @@
 import './style.css'
-import icon from '../../assets/images/Icon-filter.svg'
-import like from '../../assets/images/Heart.svg'
-import comment from '../../assets/images/Comment.svg'
+import icon from '../../assets/images/icon-filter.svg'
+import like from '../../assets/images/heart.svg'
+import comment from '../../assets/images/comment.svg'
 
 const Posts = () => {
   return (
@@ -16,9 +16,9 @@ const Posts = () => {
       <div className='posts__row'>
 
         <div className='row__box'>
-          <div className='box__perfil'>
-            <div className='perfil__photo'></div>
-            <div className='perfil__info'>
+          <div className='box__profile'>
+            <div className='profile__photo'></div>
+            <div className='profile__info'>
               <span className='info__name'>@devjunior</span>
               <br />
               <span className='info__date'>12/08/2022</span>

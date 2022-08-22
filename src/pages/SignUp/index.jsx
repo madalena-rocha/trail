@@ -16,7 +16,7 @@ export default function SignUp() {
     const [warning, setWarning] = React.useState({
         show: false,
         message: ''
-    });
+    })
 
     const handleChange = (e) => {
         setForm({
@@ -26,16 +26,16 @@ export default function SignUp() {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault()
 
-        let users = [];
+        let users = []
 
         if (localStorage.getItem('users')) {
             users = JSON.parse(localStorage.getItem('users'))
         }
 
-        users.push(form);
-        localStorage.setItem('users', JSON.stringify(users));
+        users.push(form)
+        localStorage.setItem('users', JSON.stringify(users))
 
         setForm({
             name: '',

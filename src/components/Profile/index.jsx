@@ -1,40 +1,39 @@
-import foto from '../../assets/images/imgProfile.png'
-import adicionarLocal from '../../assets/images/adicionar-local.png'
-import fotoLocal from '../../assets/images/foto-local.png'
+import photo from '../../assets/images/imgProfile.png'
+import addLocation from '../../assets/images/add-location.png'
+import photoLocation from '../../assets/images/photo-location.png'
 import './style.css'
+
 export default function Profile() {
     return (
-       <section className="Profile">
-            <div className="Informações"> 
-                <img className="imgProfile" src={foto} alt="" />
+       <section className="profile">
+            <div className="information"> 
+                <img className="img__profile" src={photo} alt="" />
 
-                <div className="Profile_bio">
-                    <p className="Nome">Dev júnior</p>
-                    <p className="Usuário">@devjunior</p>
+                <div className="profile__bio">
+                    <p className="name">Dev júnior</p>
+                    <p className="user">@devjunior</p>
                     <button className="btn">Follow +</button>    
                 </div>
                 
             </div>
-            <div className="Bio">
-              <p className="título">Bahia, Brasil</p>
+            <div className="bio">
+              <p className="title">Bahia, Brasil</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>  
             </div>
 
-            <div className="destaques">
-                <div className="lugares">
+            <div className="highlights">
+                <div className="places">
                     <p>Lugares visitados</p>
                 </div>
                 
-                <div className="Locais_fotos">
-                    <img className="adicinar" src={adicionarLocal}/>
-                    <img className="img" src={fotoLocal}/>
-                    <img className="img" src={fotoLocal} />
-                    <img className="img" src={fotoLocal} />
-                    <img className="img" src={fotoLocal} />
+                <div className="places__photos">
+                    <img className="add" src={addLocation} />
+                    <img className="img" src={photoLocation} />
+                    <img className="img" src={photoLocation} />
+                    <img className="img" src={photoLocation} />
+                    <img className="img" src={photoLocation} />
                 </div>
             </div>
-       </section>
-
-       
+       </section> 
     )
 }
