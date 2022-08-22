@@ -145,7 +145,7 @@ export default function SignUp() {
                             <span className='warning'>{ warning.message }</span>
                         }
 
-                        <Link to="/" className="sign-in__link">
+                        <Link to="/sign-in" className="sign-in__link">
                             <button className="sign-in__button">Login</button>
                         </Link>
                     </div>

@@ -1,5 +1,5 @@
-.Capa {
-    background-image: url(../../assets/images/capa.png);
+.front__cover {
+    background-image: url(../../assets/images/front-cover.png);
     background-repeat: no-repeat;
     background-size: 100%; 
     width: 100%;

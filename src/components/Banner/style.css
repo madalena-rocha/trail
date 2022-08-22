@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.banner__box{
+.banner__box {
   flex: 1;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
@@ -15,11 +15,11 @@
  
 }*/
 
-.banner__box:hover{
+.banner__box:hover {
   flex: 1 1 20%;
 }
 
-.banner__box > img{
+.banner__box > img {
   object-fit: cover;
   width: 100%;
   height: 100%;

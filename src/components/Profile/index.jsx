@@ -1,4 +1,4 @@
-import photo from '../../assets/images/imgProfile.png'
+import photo from '../../assets/images/img-profile.png'
 import addLocation from '../../assets/images/add-location.png'
 import photoLocation from '../../assets/images/photo-location.png'
 import './style.css'
