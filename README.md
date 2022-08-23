@@ -16,4 +16,4 @@ Estória: Eu como usuário necessito de uma página onde eu possa pesquisar os l
 
 Estória: Como usuário, preciso verificar quem estou seguindo e quem me segue.  
 
-[Clique aqui](https://www.figma.com/file/qeK9X287oma8fMxfOJ4xld/dev-strangers?node-id=0%3A1) para acessar o laout do projeto.
+[Clique aqui](https://www.figma.com/file/qeK9X287oma8fMxfOJ4xld/dev-strangers?node-id=0%3A1) para acessar o layout do projeto.
