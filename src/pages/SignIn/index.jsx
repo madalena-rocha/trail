@@ -3,17 +3,18 @@ import * as React from 'react'
 import signin__img from '../../assets/images/img-signin.png'
 import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
-import { useProfile } from '../../hooks/useProfile'
 
 export default function SignIn() {
-
-    const { signIn, setUser } = useProfile()
-
     const navigate = useNavigate()
 
     const [form, setForm] = React.useState({
         email: '',
         password: ''
+    })
+
+    const [warning, setWarning] = React.useState({
+        show: false,
+        message: ''
     })
 
     const handleChange = (e) => {
@@ -25,11 +26,32 @@ export default function SignIn() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (signIn(form)) {
-            localStorage.setItem('token', true)
-            navigate('/home')
+
+        let users = []
+
+        if (localStorage.getItem('users')) {
+            users = JSON.parse(localStorage.getItem('users'))
+
+            const user = users.find(u => u.email === form.email && u.password === form.password)
+
+            if (user) {
+                localStorage.setItem('token', user.email)
+                setWarning({
+                    show: false,
+                    message: ''
+                })
+                navigate('/profile')
+            } else {
+                setWarning({
+                    show: true,
+                    message: 'Usuário ou senha inválidos!'
+                })
+            }
         } else {
-            alert('E-mail ou senha inválidos!')
+            setWarning({
+                show: true,
+                message: 'Nenhum usuário cadastrado!'
+            })
         }
     }
 
@@ -54,6 +76,7 @@ export default function SignIn() {
                         value={form.email}
                         onChange={handleChange}
                     />
+
                     <label htmlFor="password" className="sign-in__label">
                         Senha
                     </label>
@@ -69,6 +92,12 @@ export default function SignIn() {
 
                     <div className="sign-in__button__group">
                         <button className="sign-in__button">Login</button>
+
+                        {
+                            warning.show 
+                            && 
+                            <span className='warning'>{ warning.message }</span>
+                        }
 
                         <Link to="/sign-up" className="sign-up__link">
                             <button className="sign-up__button">Cadastre-se</button>
