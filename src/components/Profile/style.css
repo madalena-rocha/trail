@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); 
 
-.Profile {
+.profile {
     margin-top: -60px;
 }
 .imgProfile{
@@ -8,20 +8,20 @@
     height: 200px;
     margin-top: -50px;
 }
-.Informações {
+.information {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-left: 25px;
     
 }
-.Profile_bio {
+.profile_bio {
     display: flex;
     flex-direction: column;
     color: white;
     margin-bottom: 20px;
 }
-.Bio {
+.bio {
     width: 407px;
     height: 143px;
 
@@ -33,7 +33,7 @@
 
     margin-left: 35px;
 }
-.título {
+.title {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -42,14 +42,14 @@
 
     color: #FFFFFF;
 }
-.Nome {
+.name {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
 
 }
-.Usuário {
+.user {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -78,16 +78,8 @@
     line-height: 19px;
 }
 
-.Sobre {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
 
-    margin-top: 35px;
-}
-
- .lugares {
+ .places {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -104,18 +96,15 @@
   
  }
  
-.Locais_fotos {
+.places__photos {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
     margin-left: 15px;
     margin-top: 25px;
- 
-   
-     
 }
-.adicinar {
+.add {
     cursor: pointer;
     margin-left: 25px;
     width: 125px;
