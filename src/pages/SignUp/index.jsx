@@ -3,18 +3,19 @@ import * as React from 'react'
 import signup__img from '../../assets/images/img-signup.png'
 import Container from '../../components/Container'
 import { Link } from 'react-router-dom'
-import { useProfile } from '../../hooks/useProfile'
 
 export default function SignUp() {
-
-    const { signUp } = useProfile()
-
     const [form, setForm] = React.useState({
         name: '',
         last_name: '',
         email: '',
         password: '',
         confirm_password: ''
+    })
+
+    const [warning, setWarning] = React.useState({
+        show: false,
+        message: ''
     })
 
     const handleChange = (e) => {
@@ -26,7 +27,23 @@ export default function SignUp() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        signUp(form)
+
+        let users = []
+
+        if (localStorage.getItem('users')) {
+            users = JSON.parse(localStorage.getItem('users'))
+        }
+
+        users.push(form)
+        localStorage.setItem('users', JSON.stringify(users))
+
+        setForm({
+            name: '',
+            last_name: '',
+            email: '',
+            password: '',
+            confirm_password: ''
+        })
     }
 
     return (
@@ -122,7 +139,13 @@ export default function SignUp() {
                     <div className="sign-up__button__group">
                         <button className="sign-up__button">Cadastre-se</button>
                         
-                        <Link to="/" className="sign-in__link">
+                        {
+                            warning.show 
+                            && 
+                            <span className='warning'>{ warning.message }</span>
+                        }
+
+                        <Link to="/sign-in" className="sign-in__link">
                             <button className="sign-in__button">Login</button>
                         </Link>
                     </div>
