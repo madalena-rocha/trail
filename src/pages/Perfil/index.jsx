@@ -1,13 +1,14 @@
 
 import './styles.css' 
 import Profile from '../../components/Profile'
-import Capa from '../../components/Capa'
+import BackgroundProfile from '../../components/BackgroundProfile'
+
 
 export default function Perfil () {
     return (
 
         <div className="container">
-            <Capa/>
+            <BackgroundProfile/>
             <Profile/>
         </div>
     ) 
