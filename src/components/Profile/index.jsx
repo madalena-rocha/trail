@@ -2,20 +2,21 @@ import foto from '../../assets/images/imgProfile.png'
 import adicionarLocal from '../../assets/images/adicionar-local.png'
 import fotoLocal from '../../assets/images/foto-local.png'
 import './style.css'
+
 export default function Profile() {
     return (
-       <section className="Profile">
-            <div className="Informações"> 
+       <section className="profile">
+            <div className="informações"> 
                 <img className="imgProfile" src={foto} alt="" />
 
-                <div className="Profile_bio">
-                    <p className="Nome">Dev júnior</p>
-                    <p className="Usuário">@devjunior</p>
+                <div className="profile_bio">
+                    <p className="nome">Dev júnior</p>
+                    <p className="usuário">@devjunior</p>
                     <button className="btn">Follow +</button>    
                 </div>
                 
             </div>
-            <div className="Bio">
+            <div className="bio">
               <p className="título">Bahia, Brasil</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>  
             </div>
@@ -25,8 +26,8 @@ export default function Profile() {
                     <p>Lugares visitados</p>
                 </div>
                 
-                <div className="Locais_fotos">
-                    <img className="adicinar" src={adicionarLocal}/>
+                <div className="locais_fotos">
+                    <img className="adicionar" src={adicionarLocal}/>
                     <img className="img" src={fotoLocal}/>
                     <img className="img" src={fotoLocal} />
                     <img className="img" src={fotoLocal} />

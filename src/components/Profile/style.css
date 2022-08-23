@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); 
 
-.Profile {
+.profile {
     margin-top: -60px;
 }
 .imgProfile{
@@ -8,20 +8,20 @@
     height: 200px;
     margin-top: -50px;
 }
-.Informações {
+.informações {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-left: 25px;
     
 }
-.Profile_bio {
+.profile_bio {
     display: flex;
     flex-direction: column;
     color: white;
     margin-bottom: 20px;
 }
-.Bio {
+.bio {
     width: 407px;
     height: 143px;
 
@@ -42,14 +42,14 @@
 
     color: #FFFFFF;
 }
-.Nome {
+.nome {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
 
 }
-.Usuário {
+.usuário {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -78,14 +78,6 @@
     line-height: 19px;
 }
 
-.Sobre {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-
-    margin-top: 35px;
-}
 
  .lugares {
     display: flex;
@@ -104,7 +96,7 @@
   
  }
  
-.Locais_fotos {
+.locais_fotos {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -115,7 +107,7 @@
    
      
 }
-.adicinar {
+.adicionar {
     cursor: pointer;
     margin-left: 25px;
     width: 125px;
