@@ -3,7 +3,7 @@ import './style.css'
 const Gradient = () => {
 
   return (
-    <div className='banner__background'></div>
+    <div className='banner__gradient'></div>
   );
 
 }
