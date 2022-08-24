@@ -1,9 +1,9 @@
-.posts__filter{
+.posts__filter {
   display: flex;
   justify-content: flex-end;
 }
 
-.filter__dropdown{
+.filter__dropdown {
   all: unset;
   border: 2px solid #ffffff;
   border-radius: 5rem;
@@ -92,7 +92,7 @@
   transition: transform 500ms ease;
 }
 
-.row__card:hover .card__intro, .row__card:focus-within .card__intro  {
+.row__card:hover .card__intro, .row__card:focus-within .card__intro {
   transform: translateY(0);
   transition-delay: 500ms;
 }
@@ -156,7 +156,6 @@
 .intro__view___btn {
   all: unset;
   cursor: pointer;
-  text-decoration: none;
   color: #FFFFFF;
   border: .1rem solid #9B57DE;
   border-radius: 0.25em;
@@ -178,7 +177,7 @@
   font-size: 2.5rem;
 }
 
-.posts__load{
+.posts__load {
   display: flex;
   justify-content: center;
 
