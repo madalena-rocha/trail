@@ -1,9 +1,9 @@
 import './style.css'
-import sidney from '../../assets/images/sydney.svg';
-import bolivia from '../../assets/images/bolivia.svg';
-import peru from '../../assets/images/peru.svg';
-import berlim from '../../assets/images/berlim.svg';
-import rio from '../../assets/images/rio.svg';
+import sidney from '../../assets/images/_sydney.svg';
+import bolivia from '../../assets/images/_bolivia.svg';
+import peru from '../../assets/images/_peru.svg';
+import berlim from '../../assets/images/_berlim.svg';
+import rio from '../../assets/images/_rio.svg';
 import Gradient from '../../components/Gradient';
 
 const Banner = () => {
