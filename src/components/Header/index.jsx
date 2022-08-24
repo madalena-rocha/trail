@@ -1,6 +1,6 @@
 import './style.css';
 import {BiSearch} from 'react-icons/bi'
-import logo from '../../assets/images/logo-thrail.svg'
+import logo from '../../assets/images/logo-trail.svg'
 
 const Header = () => {
   return (
