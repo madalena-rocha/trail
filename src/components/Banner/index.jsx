@@ -14,27 +14,27 @@ const Banner = () => {
 
       <div className='banner__card'>
         <img className='banner__card___img' src={sidney} alt="" />
-        <h2 className='card__country'>Sidney</h2>
+        <h2 className='card__country'>Sydney - Australia</h2>
       </div>
 
       <div className='banner__card'>
         <img className='banner__card___img' src={bolivia} alt="" />
-        <h2 className='card__country'>Bolivia</h2>
+        <h2 className='card__country'>Sajama - Bolívia</h2>
       </div>
 
       <div className='banner__card'>
         <img className='banner__card___img' src={peru} alt="" />
-        <h2 className='card__country'>Peru</h2>
+        <h2 className='card__country'>Machu Picchu - Peru</h2>
       </div>
 
       <div className='banner__card'>
         <img className='banner__card___img' src={berlim} alt="" />
-        <h2 className='card__country'>Berlim</h2>
+        <h2 className='card__country'>Berlim - Alemanha</h2>
       </div>
 
       <div className='banner__card'>
         <img className='banner__card___img' src={rio} alt="Rio" />
-        <h2 className='card__country'>Rio</h2>
+        <h2 className='card__country'>Rio de Janeiro - Brasil</h2>
   </div>
 
     </section>

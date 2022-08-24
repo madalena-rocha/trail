@@ -49,18 +49,20 @@
   color: #D9D9D9;
 }
 
-.search__button {
-  width: 2rem;
-  height: 2rem;
+.search__btn {
+  display: flex;
 
+  font-size: 2.5rem;
+  color: white;
+  
   border: 0;
   background: rgba(0, 0, 0, 0);
-  margin-right: 2.2rem;
+  margin-right: 2rem;
 
   cursor: pointer;
 }
 
-.header__btn___lc {
+.header__access___btn {
   all: unset;
 
   width: 18rem;

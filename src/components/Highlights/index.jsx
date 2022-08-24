@@ -8,32 +8,32 @@ const Highlights = () => {
 
       <div className='highlights__box'>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>
 
-        <div className='box__circle'>
+        <div className='highlights__box___circle'>
           <img src="" alt="" />
           <span></span>
         </div>

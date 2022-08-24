@@ -1,5 +1,5 @@
 import './style.css';
-import search from '../../assets/images/search.svg';
+import {BiSearch} from 'react-icons/bi'
 
 const Header = () => {
   return (
@@ -8,11 +8,11 @@ const Header = () => {
 
       <form action="" className="header__search">
         <input type="text" name="search" id="search" placeholder="Pesquisar"/>
-        <button type="submit" className="search__button">
-          <img className="link__icon" src={search} alt=""/>
+        <button type="submit" className="search__btn">
+          <BiSearch/>
         </button> 
       </form>
-      <button className="header__btn___lc">Cadastro / Login</button>
+      <button className="header__access___btn">Cadastro / Login</button>
     </header>
   );
 }
