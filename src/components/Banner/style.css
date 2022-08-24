@@ -27,10 +27,13 @@
   height: 100%;
 }
 
+.banner__card___img {
+  cursor: pointer;
+}
+
 .card__country {
   position: absolute;
-  z-index: 2;
-  margin-top: 41rem;
+  margin-top: 40rem;
   
   font-weight: 600;
   font-size: 2.6rem;
