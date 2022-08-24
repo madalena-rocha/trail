@@ -13,27 +13,27 @@ const Banner = () => {
       <Gradient/>
 
       <div className='banner__card'>
-        <img className='banner__card___img' src={sidney} alt="" />
-        <h2 className='card__country'>Sydney - Australia</h2>
+        <img className='banner__card___img' src={sidney} alt="Foto do banner Sydney - Austrália" />
+        <h2 className='card__country'>Sydney - Austrália</h2>
       </div>
 
       <div className='banner__card'>
-        <img className='banner__card___img' src={bolivia} alt="" />
+        <img className='banner__card___img' src={bolivia} alt="Foto do banner Sajama - Bolívia" />
         <h2 className='card__country'>Sajama - Bolívia</h2>
       </div>
 
       <div className='banner__card'>
-        <img className='banner__card___img' src={peru} alt="" />
+        <img className='banner__card___img' src={peru} alt="Foto do banner Machu Picchu - Peru" />
         <h2 className='card__country'>Machu Picchu - Peru</h2>
       </div>
 
       <div className='banner__card'>
-        <img className='banner__card___img' src={berlim} alt="" />
+        <img className='banner__card___img' src={berlim} alt="Foto do banner Berlim - Alemanha" />
         <h2 className='card__country'>Berlim - Alemanha</h2>
       </div>
 
       <div className='banner__card'>
-        <img className='banner__card___img' src={rio} alt="Rio" />
+        <img className='banner__card___img' src={rio} alt="Rio de Janeiro - Brasil" />
         <h2 className='card__country'>Rio de Janeiro - Brasil</h2>
   </div>
 

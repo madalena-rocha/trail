@@ -1,10 +1,12 @@
 import './style.css';
 import {BiSearch} from 'react-icons/bi'
+import logo from '../../assets/images/logo-thrail.svg'
 
 const Header = () => {
   return (
     <header className="header">
-      <img className="header__logo" src="" alt=""/>
+      
+        <img className='header__logo___img' src={logo} alt="Logo do site" />
 
       <form action="" className="header__search">
         <input type="text" name="search" id="search" placeholder="Pesquisar"/>
