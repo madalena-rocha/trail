@@ -1,6 +1,6 @@
 .main__highlights {
   width: 100%;
-  margin-top: 4.5rem;
+  margin: 4.5rem 0 6rem 0;
 }
 
 .highlights__title {
@@ -9,10 +9,10 @@
   line-height: 3.8rem;
   text-align: center;
   
-  color: #D9D9D9;
+  color: #ffffff;
 }
 
-.highlights__box{
+.highlights__box {
   margin-top: 2.5rem;
 
   display: flex;
@@ -20,10 +20,9 @@
   gap: 2rem;
 }
 
-.box__circle {
+.highlights__box___circle {
   width: 10rem;
   height: 10rem;
-  background-color: #1E1E1E;
   border: 0.2rem solid white;
   border-radius: 50%;
 

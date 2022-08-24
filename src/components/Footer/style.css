@@ -1,8 +1,20 @@
-.footer{
+.footer {
   width: 100vw;
   height: 25rem;
 
   margin-top: 15rem;
 
   background: #181818;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #FFFFFF;
 }
