@@ -36,8 +36,9 @@
   max-width: 34.5rem;
   height: 39.5rem;
 
-  background-image: url(../../assets/images/_peru.svg);
+  background-image: url('../../assets/images/_peru.svg');
   background-size: cover;
+  background-repeat: no-repeat;
 
   border-radius: .5rem;
 
@@ -63,9 +64,10 @@
 .card__perfil___photo {
   width: 4.5rem;
   height: 4.5rem;
-  background-color: #1E1E1E;
   border: 2px solid white;
   border-radius: 50%;
+
+  background-size: cover;
 
   cursor: pointer;
 }

@@ -1,8 +1,7 @@
 import './style.css'
-import {BiDownArrow} from 'react-icons/bi'
+import photo from '../../assets/images/photo-perfil.jpg'
+import {BiDownArrow, BiCommentDetail} from 'react-icons/bi'
 import {AiOutlineEye} from 'react-icons/ai'
-import {BiCommentDetail} from 'react-icons/bi'
-
 
 const Posts = () => {
   return (
@@ -18,7 +17,7 @@ const Posts = () => {
 
         <div className='row__card'>
           <div className='card__perfil'>
-            <div className='card__perfil___photo'></div>
+            <img className='card__perfil___photo' src={photo} alt="" />
             <div className='card__perfil___info'>
               <span className='info__name'>@devjunior</span>
               <br />
