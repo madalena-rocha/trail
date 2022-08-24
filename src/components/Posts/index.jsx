@@ -27,7 +27,7 @@ const Posts = () => {
           </div>
           
           <div className='card__intro'>
-            <h4 className='card__intro___location'>Bahia, Brasil</h4>
+            <h4 className='card__intro___location'>Machu Picchu - Peru</h4>
             <p className='card__intro___text'>Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua...</p>

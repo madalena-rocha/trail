@@ -57,7 +57,7 @@
 .card__country::after {
   content: '';
   position: absolute;
-  height: 4px;
+  height: .4rem;
   width: 100%;
   background: #9B57DE;
   left: 0;
