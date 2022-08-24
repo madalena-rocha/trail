@@ -1,8 +1,10 @@
 .main__banner {
-  display: flex;
-  height: 51.5rem;
+  height: 46.5rem;
 
+  display: flex;
   justify-content: center;
+
+  margin-top: 8rem;
 }
 
 .banner__card {
@@ -33,7 +35,7 @@
 
 .card__country {
   position: absolute;
-  margin-top: 40rem;
+  margin-top: 36rem;
   
   font-weight: 600;
   font-size: 2.6rem;

@@ -1,5 +1,4 @@
 import './style.css'
-import logo from '../../assets/images/logo-thrail.svg'
 
 const Footer = () => {
   return (
