@@ -115,7 +115,7 @@
     padding: 1rem;
 }
 
-.sign-in.warning {
+.sign-in .warning {
     top: 74.5%;
     width: 36.1rem;
 }

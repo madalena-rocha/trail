@@ -18,6 +18,8 @@
     padding: 3.4rem 3.1rem;
 
     border-radius: 0px 20px 20px 0px;
+
+    position: relative;
 }
 
 .sign-up__title {
@@ -88,4 +90,9 @@
 
     display: flex;
     gap: 2.9rem;
+}
+
+.sign-up .warning {
+    top: 79%;
+    width: 47.4rem;
 }
