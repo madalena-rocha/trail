@@ -1,5 +1,3 @@
-
-import './styles.css' 
 import Profile from '../../components/Profile'
 import BackgroundProfile from '../../components/BackgroundProfile'
 import Header from '../../components/Header'
