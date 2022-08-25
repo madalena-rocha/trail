@@ -18,6 +18,8 @@
     padding: 3.4rem 8.75rem;
 
     border-radius: 20px 0px 0px 20px;
+    
+    position: relative;
 }
 
 .sign-in__title {
@@ -97,4 +99,23 @@
 
     display: flex;
     gap: 2.9rem;
+}
+
+.warning {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    color: orange;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 1rem;
+}
+
+.sign-in.warning {
+    top: 74.5%;
+    width: 36.1rem;
 }
