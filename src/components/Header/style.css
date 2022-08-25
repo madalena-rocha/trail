@@ -85,3 +85,13 @@
   border: .2rem solid #FFFFFF;
   border-radius: .5em;
 }
+
+.header__acess___profile {
+  display: flex;
+  align-items: center;
+}
+
+.header__setting {
+  margin-left: 10px;
+  cursor: pointer;
+}

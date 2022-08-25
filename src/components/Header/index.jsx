@@ -2,6 +2,8 @@ import './style.css';
 import * as React from 'react'
 import {BiSearch} from 'react-icons/bi'
 import logo from '../../assets/images/logo-trail.svg'
+import perfil from '../../assets/images/perfil.png'
+import setting from '../../assets/images/setting-perfil.png'
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -16,6 +18,14 @@ const Header = () => {
     setFilter(e.target.value);
   }
 
+  const HeaderAccess = () => {
+    const token = localStorage.getItem('token')
+    return token ? (<div className="header__acess___profile">
+      <img className="header__profile" src={perfil} alt="" />
+      <img className="header__setting" src={setting} alt="" />
+    </div>) : <button className="header__access___btn" onClick={() => handleClick()}>Cadastro / Login</button>
+  }
+
   return (
     <header className="header">
       
@@ -28,8 +38,7 @@ const Header = () => {
           <BiSearch/>
         </button> 
       </form>
-      
-      <button className="header__access___btn" onClick={() => handleClick()}>Cadastro / Login</button>
+      <HeaderAccess />
     </header>
   );
 }
