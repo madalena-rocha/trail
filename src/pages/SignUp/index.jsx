@@ -2,9 +2,11 @@ import './styles.css'
 import * as React from 'react'
 import signup__img from '../../assets/images/img-signup.png'
 import Container from '../../components/Container'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function SignUp() {
+    const navigate = useNavigate()
+
     const [form, setForm] = React.useState({
         name: '',
         last_name: '',
@@ -49,16 +51,46 @@ export default function SignUp() {
             users = JSON.parse(localStorage.getItem('users'))
         }
 
-        users.push(form)
-        localStorage.setItem('users', JSON.stringify(users))
+        const user = users.find(u => u.email === form.email)
+        
+        if (user) {
+            setWarning({
+                show: true,
+                message: 'E-mail já cadastrado!'
+            })
 
-        setForm({
-            name: '',
-            last_name: '',
-            email: '',
-            password: '',
-            confirm_password: ''
-        })
+            setTimeout(() => {
+                setWarning({
+                    show: false,
+                    message: ''
+                })
+            }, 3000)
+        } else {
+            users.push(form)
+            localStorage.setItem('users', JSON.stringify(users))
+
+            setForm({
+                name: '',
+                last_name: '',
+                email: '',
+                password: '',
+                confirm_password: ''
+            })
+
+            setWarning({
+                show: true,
+                message: 'Usuário cadastrado com sucesso!'
+            })
+
+            setTimeout(() => {
+                setWarning({
+                    show: false,
+                    message: ''
+                })
+
+                navigate('/sign-in')
+            }, 3000)
+        }
     }
 
     return (
