@@ -46,12 +46,26 @@ export default function SignIn() {
                     show: true,
                     message: 'Usuário ou senha inválidos!'
                 })
+
+                setTimeout(() => {
+                    setWarning({
+                        show: false,
+                        message: ''
+                    })
+                }, 3000)
             }
         } else {
             setWarning({
                 show: true,
                 message: 'Nenhum usuário cadastrado!'
             })
+
+            setTimeout(() => {
+                setWarning({
+                    show: false,
+                    message: ''
+                })
+            }, 3000)
         }
     }
 
