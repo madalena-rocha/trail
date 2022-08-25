@@ -28,6 +28,21 @@ export default function SignUp() {
     const handleSubmit = (e) => {
         e.preventDefault()
 
+        if (form.name === '' || form.last_name === '' || form.email === '' || form.password === '' || form.confirm_password === '') {
+            setWarning({
+                show: true,
+                message: 'Preencha todos os campos!'
+            })
+            
+            setTimeout(() => {
+                setWarning({
+                    show: false,
+                    message: ''
+                })
+            }, 3000)
+            return
+        }
+
         let users = []
 
         if (localStorage.getItem('users')) {
