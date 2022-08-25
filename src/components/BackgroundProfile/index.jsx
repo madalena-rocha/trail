@@ -1,8 +1,13 @@
+import Gradient from '../Gradient'
 import './style.css'
+import capa from '../../assets/images/capa.png'
 
 export default function BackgroundProfile () {
     return (
-        <div className="background__Profile">
-        </div>
+        <section className="background__profile">
+            <div className='profile__img'>
+                <img src={capa} alt="" />
+            </div>
+        </section>
     )
 }

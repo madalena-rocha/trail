@@ -1,20 +1,21 @@
-import foto from '../../assets/images/imgProfile.png'
-import adicionarLocal from '../../assets/images/adicionar-local.png'
-import fotoLocal from '../../assets/images/foto-local.png'
-import './style.css'
 
-export default function Profile() {
+import adicionarLocal from '../../assets/images/adicionar-local.png'
+import circle from '../../assets/images/circle.svg'
+import './style.css'
+import photo from '../../assets/images/photo-perfil.jpg'
+
+
+export default function Profile(props) {
     return (
        <section className="profile">
             <div className="information"> 
-                <img className="imgProfile" src={foto} alt="" />
+                <img className="imgProfile" src={photo} alt="" />
 
                 <div className="profile_bio">
                     <p className="name">Dev júnior</p>
                     <p className="user">@devjunior</p>
-                    <button className="btn">Follow +</button>    
-                </div>
-                
+                    {props.following == true ? <button className="btn-2" onClick={() => props.onClick(false)}>Unfollow</button> : <button className="btn" onClick={() => props.onClick(true)}>Follow +</button>}
+                </div>   
             </div>
             <div className="bio">
               <p className="title">Bahia, Brasil</p>
@@ -28,14 +29,12 @@ export default function Profile() {
                 
                 <div className="places__photos">
                     <img className="add" src={adicionarLocal}/>
-                    <img className="img" src={fotoLocal}/>
-                    <img className="img" src={fotoLocal} />
-                    <img className="img" src={fotoLocal} />
-                    <img className="img" src={fotoLocal} />
+                    <img className="img" src={circle}/>
+                    <img className="img" src={circle} />
+                    <img className="img" src={circle} />
+                    <img className="img" src={circle} />
                 </div>
             </div>
        </section>
-
-       
     )
 }

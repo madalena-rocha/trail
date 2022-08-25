@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); 
 
 .profile {
-    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .imgProfile{
     width: 200px;
     height: 200px;
-    margin-top: -50px;
+    border-radius: 20px;
+    
 }
 .information {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-left: 25px;
-    
+    align-items: center;
 }
 .profile_bio {
-    display: flex;
-    flex-direction: column;
     color: white;
     margin-bottom: 20px;
+
+    margin-left: 10px;
 }
 .bio {
     width: 407px;
@@ -30,9 +31,8 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-
-    margin-left: 35px;
 }
+
 .title {
     font-style: normal;
     font-weight: 700;
@@ -78,16 +78,29 @@
     line-height: 19px;
 }
 
+.btn-2 {
+    all:unset;
+    cursor: pointer;
+
+    width: 85px;
+    height: 30.44px;
+    
+    background:#9B57DE;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+}
 
  .places {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-   
-    margin-top: 45px;
-    margin-left: 25px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -96,13 +109,10 @@
   
  }
  
-.places__photos {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-left: 15px;
+ .places__photos {
+
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 .add {
     cursor: pointer;
