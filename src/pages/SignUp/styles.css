@@ -6,6 +6,8 @@
     border-radius: 20px;
 
     background-color: #FFFFFF;
+
+    margin: auto;
 }
 
 .sign-up__form {
@@ -56,6 +58,7 @@
     color: #9B57DE;
 }
 
+.sign-up__button__group .sign-in__button:hover,
 .sign-up__button__group .sign-up__button {
     background: #9B57DE;
     color: #FFFFFF;
@@ -82,4 +85,7 @@
 .sign-up__button__group {
     margin: 0 auto;
     margin-top: 4.3rem;
+
+    display: flex;
+    gap: 2.9rem;
 }
