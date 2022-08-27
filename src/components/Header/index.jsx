@@ -1,10 +1,9 @@
 import './style.css';
 import * as React from 'react'
 import {BiSearch} from 'react-icons/bi'
+import arrow from '../../assets/images/arrow-dropdown.svg'
 import logo from '../../assets/images/logo-trail.svg'
-import perfil from '../../assets/images/perfil.png'
-import setting from '../../assets/images/setting-perfil.png'
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -21,8 +20,8 @@ const Header = () => {
   const HeaderAccess = () => {
     const token = localStorage.getItem('token')
     return token ? (<div className="header__acess___profile">
-      <img className="header__profile" src={perfil} alt="" />
-      <img className="header__setting" src={setting} alt="" />
+      <div className="header__profile" ></div>
+      <img className="header__setting" src={arrow} alt="Seta dropdown menu" />
     </div>) : <button className="header__access___btn" onClick={() => handleClick()}>Cadastro / Login</button>
   }
 

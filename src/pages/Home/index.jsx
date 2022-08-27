@@ -9,18 +9,18 @@ import Posts from "../../components/Posts";
 
 const Home = () => {
   return (
-    <div>
-      <Container>
-        <Header/>
-          <Main>
-            <Banner/>
-            <Highlights/>
-            <Division title='Publicações'/>
-            <Posts/>
-          </Main>
+    
+    <Container>
+      <Header/>
+        <Main>
+          <Banner/>
+          <Highlights/>
+          <Division title='Publicações'/>
+          <Posts/>
+        </Main>
         <Footer/>
-      </Container>
-    </div>
+    </Container>
+    
   );
 }
 
