@@ -8,6 +8,7 @@ import {useNavigate} from 'react-router-dom';
 const Header = () => {
   const navigate = useNavigate();
   const [filter, setFilter] = React.useState('');
+  const [visible,setVisible] = React.useState(false)
 
   const handleClick = () => {
     navigate('/sign-in');
@@ -17,11 +18,21 @@ const Header = () => {
     setFilter(e.target.value);
   }
 
+  const handleLogout = () => {
+    localStorage.removeItem('token')
+    localStorage.removeItem('users')
+    navigate('/')
+  }
+
   const HeaderAccess = () => {
     const token = localStorage.getItem('token')
-    return token ? (<div className="header__acess___profile">
+    return token ? (<div  className="header__acess___profile">
       <div className="header__profile" ></div>
-      <img className="header__setting" src={arrow} alt="Seta dropdown menu" />
+      <img onClick={() => setVisible(!visible)} className="header__setting" src={arrow} alt="Seta dropdown menu"/>
+      {visible ? (<div className="header__menu">
+        <p>Editar Perfil</p>
+        <p onClick={handleLogout}>Sair</p>
+      </div>) : ''}
     </div>) : <button className="header__access___btn" onClick={() => handleClick()}>Cadastro / Login</button>
   }
 
