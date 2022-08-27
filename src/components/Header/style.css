@@ -91,7 +91,14 @@
   align-items: center;
 }
 
-.header__setting {
+.header__profile {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: .2rem solid #FFFFFF;
+}
+
+.header__setting { 
   margin-left: 10px;
   cursor: pointer;
 }

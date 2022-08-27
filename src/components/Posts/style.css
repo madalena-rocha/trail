@@ -54,14 +54,14 @@
   transform: scale(1.05);
 }
 
-.card__perfil {
+.card__nick {
   display: flex;
   align-items: center;
   margin: 1rem 0 0 1rem;
   gap: 1rem;
 }
 
-.card__perfil___photo {
+.card__nick___photo {
   width: 4.5rem;
   height: 4.5rem;
   border: 2px solid white;

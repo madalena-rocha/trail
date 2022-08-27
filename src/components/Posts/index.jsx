@@ -16,9 +16,9 @@ const Posts = () => {
       <div className='posts__row'>
 
         <div className='row__card'>
-          <div className='card__perfil'>
-            <img className='card__perfil___photo' src={photo} alt="" />
-            <div className='card__perfil___info'>
+          <div className='card__nick'>
+            <img className='card__nick___photo' src={photo} alt="" />
+            <div className='card__nick___info'>
               <span className='info__name'>@devjunior</span>
               <br />
               <span className='info__date'>12/08/2022</span>
