@@ -15,10 +15,7 @@ export default function SignUp() {
         confirm_password: ''
     })
 
-    const [warning, setWarning] = React.useState({
-        show: false,
-        message: ''
-    })
+    const [warning, setWarning] = React.useState(null)
 
     const handleChange = (e) => {
         setForm({
@@ -31,16 +28,28 @@ export default function SignUp() {
         e.preventDefault()
 
         if (form.name === '' || form.last_name === '' || form.email === '' || form.password === '' || form.confirm_password === '') {
-            setWarning({
-                show: true,
-                message: 'Preencha todos os campos!'
-            })
+            setWarning('Preencha todos os campos!')
+
+            setTimeout(() => {
+                setWarning(null)
+            }, 3000)
+            return
+        }
+
+        if (form.password.length < 6) {
+            setWarning('A senha deve apresentar no mínimo 6 caracteres.')
+                
+            setTimeout(() => {
+                setWarning(null)
+            }, 3000)
+            return
+        }
+
+        if (form.password != form.confirm_password) {
+            setWarning('Confirme a senha informada.')
             
             setTimeout(() => {
-                setWarning({
-                    show: false,
-                    message: ''
-                })
+                setWarning(null)
             }, 3000)
             return
         }
@@ -54,16 +63,10 @@ export default function SignUp() {
         const user = users.find(u => u.email === form.email)
         
         if (user) {
-            setWarning({
-                show: true,
-                message: 'E-mail já cadastrado!'
-            })
+            setWarning('E-mail já cadastrado!')
 
             setTimeout(() => {
-                setWarning({
-                    show: false,
-                    message: ''
-                })
+                setWarning(null)
             }, 3000)
         } else {
             users.push(form)
@@ -77,17 +80,10 @@ export default function SignUp() {
                 confirm_password: ''
             })
 
-            setWarning({
-                show: true,
-                message: 'Usuário cadastrado com sucesso!'
-            })
+            setWarning('Usuário cadastrado com sucesso!')
 
             setTimeout(() => {
-                setWarning({
-                    show: false,
-                    message: ''
-                })
-
+                setWarning(null)
                 navigate('/sign-in')
             }, 3000)
         }
@@ -186,11 +182,7 @@ export default function SignUp() {
                     <div className="sign-up__button__group">
                         <button className="sign-up__button">Cadastre-se</button>
                         
-                        {
-                            warning.show 
-                            && 
-                            <span className='warning'>{ warning.message }</span>
-                        }
+                        { <span className='warning'>{ warning }</span> }
 
                         <Link to="/sign-in" className="sign-in__link">
                             <button className="sign-in__button">Login</button>
