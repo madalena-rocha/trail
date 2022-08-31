@@ -12,10 +12,7 @@ export default function SignIn() {
         password: ''
     })
 
-    const [warning, setWarning] = React.useState({
-        show: false,
-        message: ''
-    })
+    const [warning, setWarning] = React.useState(null)
 
     const handleChange = (e) => {
         setForm({
@@ -36,35 +33,20 @@ export default function SignIn() {
 
             if (user) {
                 localStorage.setItem('token', user.email)
-                setWarning({
-                    show: false,
-                    message: ''
-                })
+                setWarning(null)
                 navigate('/profile')
             } else {
-                setWarning({
-                    show: true,
-                    message: 'Usuário ou senha inválidos!'
-                })
+                setWarning('Usuário ou senha inválidos!')
 
                 setTimeout(() => {
-                    setWarning({
-                        show: false,
-                        message: ''
-                    })
+                    setWarning(null)
                 }, 3000)
             }
         } else {
-            setWarning({
-                show: true,
-                message: 'Nenhum usuário cadastrado!'
-            })
+            setWarning('Nenhum usuário cadastrado!')
 
             setTimeout(() => {
-                setWarning({
-                    show: false,
-                    message: ''
-                })
+                setWarning(null)
             }, 3000)
         }
     }
@@ -107,11 +89,7 @@ export default function SignIn() {
                     <div className="sign-in__button__group">
                         <button className="sign-in__button">Login</button>
 
-                        {
-                            warning.show 
-                            && 
-                            <span className='warning'>{ warning.message }</span>
-                        }
+                        { <span className='warning'>{ warning }</span> }
 
                         <Link to="/sign-up" className="sign-up__link">
                             <button className="sign-up__button">Cadastre-se</button>
