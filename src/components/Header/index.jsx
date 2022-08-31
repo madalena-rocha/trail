@@ -14,13 +14,16 @@ const Header = () => {
     navigate('/sign-in');
   }
 
+  const handleHome = () => {
+    navigate('/')
+  }
+
   const hundleChange = (e) => {
     setFilter(e.target.value);
   }
 
   const handleLogout = () => {
     localStorage.removeItem('token')
-    localStorage.removeItem('users')
     navigate('/')
   }
 
@@ -39,7 +42,7 @@ const Header = () => {
   return (
     <header className="header">
       
-      <img className='header__logo___img' src={logo} alt="Logo do site" />
+      <img onClick={handleHome} className='header__logo___img' src={logo} alt="Logo do site" />
 
       <form action="" className="header__search">
         <input type="text" name="filter" value={filter} onChange={hundleChange}

@@ -15,6 +15,9 @@
 
   padding: 0 5.8rem;
 }
+.header__logo___img {
+  cursor: pointer;
+}
 
 .header__search {
   width: 51.9rem;
@@ -99,7 +102,7 @@
 }
 
 .header__setting { 
-  margin-left: 10px;
+  margin-left:  2rem;
   cursor: pointer;
 }
 
@@ -110,23 +113,23 @@
   flex-direction: column;
 
   position: absolute;
-  top: 70px;
-  right: 40px;
+  top: 7rem;
+  right: 3.9rem;
 
 
-  width: 130px;
-  height: 77px;
+  width: 13rem;
+  height: 7.5rem;
 
   background: #9B57DE;
-  border: 1px solid #FFFFFF;
+  border: 0.2rem solid #FFFFFF;
   box-shadow: 2px 6px 10px 5px rgba(0, 0, 0, 0.52);
-  border-radius: 5px;
+  border-radius: 0.5rem;
 
   color: white;
 
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 22px;
 }
 
