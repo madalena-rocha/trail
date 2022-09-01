@@ -1,0 +1,71 @@
+{
+  "posts": [
+    { "id": 1, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 2, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 3, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 4, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 5, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 6, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 7, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 8, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 9, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 10, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 11, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 12, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 13, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 14, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 15, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 16, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 17, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 18, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 19, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"},
+    { "id": 20, "location": "Machu Picchu - Peru","image": "", "username": "@devjunior","date": "12/08/2022"}
+  ],
+
+  "modal_banner": [
+    {
+      "id": 1,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/15/b2/4a/caption.jpg?w=1200&h=-1&s=1",
+      "alt": "Foto Sydney - Austrália",
+      "location": "Sydney - Austrália",
+      "text": "Sydney, capital do estado de Nova Gales do Sul e uma das maiores cidades da Austrália, é especialmente conhecida pela Ópera de Sydney, que fica na orla e tem um design inspirado em velas de barco. O enorme Porto Darling e o porto de Circular Quay, de menores dimensões, são centros da vida à beira-mar. Nas proximidades, ficam a Ponte da Baía de Sydney, em forma de arco, e o Jardim Botânico Real. A Skywalk, plataforma externa da Torre de Sydney, oferece uma visão de 360 graus da cidade e dos subúrbios."
+    },
+  
+    {
+      "id": 2,
+      "image": "https://southamericaplanet.com/wp-content/uploads/2020/10/nevado-sajama-tomarapi-church-sajama-volcano-evening-1024x640.jpg",
+      "alt": "Foto Sajama - Bolívia",
+      "location": "Sajama - Bolívia",
+      "text":"O Parque Nacional, onde está localizado o Vulcão Sajama fica no estado de Oruro, a aproximadamente 4h da capital La Paz e é freqüentado em sua maioria por aventureiros que buscam as altas montanhas como o Sajama (6542m) e os Payachatas (de 6330m a 6200m). Esta região é também chamada de cordilheira ocidental e apesar de ter um clima mais árido e desértico, é de grande beleza visual e de grande riqueza cultural já que os campesinos são maiorias nesta região.Bolívia, um país pequeno de grande riqueza cultural onde podemos vivenciar 2 culturas indígenas principais, os Quechuas e os Aymarás, cada um com seu dialeto particular e costumes.País no qual podemos praticar o montanhismo em altitude com montanhas de mais de 6000m.O Parque Nacional e suas montanhas altas são uma grande barreira climática para as montanhas localizadas nos arredores de La Paz, sofrendo assim maiores influências climáticas."
+    },
+  
+    {
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/1_pano_machu_picchu_guard_house_river_2014.jpg/1920px-1_pano_machu_picchu_guard_house_river_2014.jpg",
+      "alt": "Foto Machu Picchu - Peru",
+      "location": "Machu Picchu - Peru",
+      "text":"Machu Picchu é uma cidadela inca que fica no alto da Cordilheira dos Andes no Peru, acima do vale do rio Urubamba. Construída no século XV e posteriormente abandonada, ela é conhecida pelas sofisticadas muralhas de pedra contínuas, cujos imensos blocos foram unidos sem o uso de argamassa, pelas construções intrigantes que levam em conta o alinhamento dos astros e pelas vistas panorâmicas. A antiga utilidade dessas construções segue sendo um mistério. "
+    },
+  
+    {
+      "id": 4,
+      "image": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQJiM_MTgRQa75fZBQk3SznelOiYghatLpEUnXN8C74nklQjj-J_fzOZho-zZ5-O-EF",
+      "alt": "Foto Berlim - Alemanha",
+      "location": "Berlim - Alemanha",
+      "text":"Berlim, a capital da Alemanha, existe desde o século XIII. Algumas recordações da história turbulenta da cidade no século XX são o Memorial do Holocausto e as ruínas do Muro de Berlim, repletas de grafites. Usado como divisão de fronteiras durante a Guerra Fria, o Portão de Brandemburgo, construído no século XVIII, tornou-se um símbolo da reunificação. A cidade também é conhecida por seu cenário artístico e seus monumentos modernos, como a Filarmônica de Berlim, dourada e de telhado triangular, construída em 1963."
+    },
+  
+    {
+      "id": 5,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/c2/cb/79/photo6jpg.jpg?w=1200&h=-1&s=1",
+      "alt": "Foto Rio de Janeiro - Brasil",
+      "location": "Rio de Janeiro - Brasil",
+      "text":"O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume. A cidade também é conhecida pelas grandes favelas. O empolgante Carnaval, com carros alegóricos, fantasias extravagantes e sambistas, é considerado o maior do mundo."
+    }
+  ],
+
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "@devjunior" }
+}

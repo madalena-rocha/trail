@@ -185,21 +185,3 @@
 
   margin-top: 5rem;
 }
-
-.posts__load___btn {
-  all: unset;
-
-  padding: .5rem 1.5rem;
-
-  background: #9B57DE;
-  border-radius: 2rem;
-
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 3.4rem;
-  text-align: center;
-
-  color: #FFFFFF;
-
-  cursor: pointer;
-}

@@ -46,7 +46,6 @@ const Posts = () => {
       </div>
 
       <div className='posts__load'>
-        <button className='posts__load___btn'>Carregar mais...</button>
       </div>
   
     </section>
