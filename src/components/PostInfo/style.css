@@ -1,0 +1,33 @@
+.post__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.post__info___photo {
+  width: 10rem;
+  height: 10rem;
+
+  border-radius: 50%;
+  border: .2rem solid #FFFFFF;
+  margin: 10rem 0 2rem 0;
+}
+
+.post__info___profile {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.post__info___location {
+  display: flex;
+  gap: 1rem;
+
+  font-weight: 700;
+  font-size: 2.6rem;
+
+  color: #FFFFFF;
+  
+  margin: 2rem;
+}
