@@ -49,7 +49,16 @@
 
 .modal__banner___title {
   font-size: 3rem;
-  margin: 6rem 0;
+  margin-top: 6rem;
+}
+
+.modal__banner___line {
+  content: '';
+  height: .4rem;
+  width: 100%;
+  background: #9B57DE;
+  box-shadow: 3px 3px 4px #0f0f0f;
+  margin-bottom: 2rem;
 }
 
 .modal__banner___text {
