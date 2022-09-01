@@ -18,7 +18,7 @@ const Header = () => {
     navigate('/')
   }
 
-  const hundleChange = (e) => {
+  const handleChange = (e) => {
     setFilter(e.target.value);
   }
 
@@ -45,7 +45,7 @@ const Header = () => {
       <img onClick={handleHome} className='header__logo___img' src={logo} alt="Logo do site" />
 
       <form action="" className="header__search">
-        <input type="text" name="filter" value={filter} onChange={hundleChange}
+        <input type="text" name="filter" value={filter} onChange={handleChange}
         id="search" placeholder="Pesquisar"/>
         <button type="submit" className="search__btn">
           <BiSearch/>

@@ -92,6 +92,21 @@
     gap: 2.9rem;
 }
 
+.success {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    color: green;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 1rem;
+}
+
+.success, 
 .sign-up .warning {
     top: 79%;
     width: 47.4rem;
