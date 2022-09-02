@@ -3,8 +3,6 @@ import {IoMdCloseCircleOutline} from 'react-icons/io'
 
 const ModalBanner = (props) => {
 
-  console.log(props)
-
   return (
     <div className='modal__banner'>
       <div className='modal__banner___body'>
