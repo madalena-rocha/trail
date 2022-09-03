@@ -1,0 +1,108 @@
+.container-carousel {
+  position: absolute;
+  width: 90vw;
+  height: 100vh;
+  left: 3rem;
+
+  font-family: "Montserrat", sans-serif;
+  color: #d9d9d9;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.carousel {
+  width: 84.5%;
+  height: 65%;
+  margin-top: 3rem;
+  box-shadow: inset -1px 5px 2px 1px rgba(117, 50, 117, 0.51);
+}
+
+#icone-carousel {
+  position: absolute;
+  top: 10rem;
+  right: 0px;
+  font-size: 4.3rem;
+  color: #d9d9d9;
+}
+
+p {
+  width: 85%;
+  height: 185px;
+  text-align: justify;
+  margin-top: 2rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  display: flex;
+  width: 2.2rem;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px dotted rgb(46, 18, 46);
+  z-index: 1;
+}
+
+.carousel .slick-prev {
+  left: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.carousel .slick-next {
+  right: 0;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.custom-indicator {
+  width: 12rem;
+  height: 90vh;
+  flex-direction: column;
+  top: 0;
+  right: -15rem;
+}
+
+.custom-indicator li {
+  width: 12rem;
+  height: 7rem;
+  right: 2.3rem;
+  border: solid rgb(75, 32, 75) 2px;
+  border-radius: 7px;
+  box-shadow: 36px 12px 48px -24px rgba(50, 23, 50, 0);
+  filter: grayscale(100%);
+}
+
+.custom-indicator li.slick-active {
+  filter: grayscale(3%);
+}
+
+.multi__image:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.btn-like {
+  position: absolute;
+  top: 25rem;
+  right: 9rem;
+}
+
+.btn-msg {
+  position: absolute;
+  font-size: 2rem;
+  top: 25rem;
+  right: 12rem;
+  font-size: 28px;
+}

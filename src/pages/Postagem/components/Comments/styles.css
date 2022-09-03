@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+a {
+  all: unset;
+  color: #d9d9d9; 
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+
+}
+.comments {
+  width: 50%;
+  padding: 1rem 31rem 0 3rem;
+  align-items: center;
+  position:absolute;
+  bottom: 8rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #d9d9d9;
+  background-color: #222222;
+}
+
+.comments-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 39px;
+}
+
+#drop {
+  width: 18px;
+  height: 14px;
+}
+
+.comments-container {
+  margin-top: 40px;
+}
+
+.comment-form-title {
+  font-size: 22px;
+}
+
+.comment-form-textarea {
+  width: 100%;
+  height: 3.6rem;
+  margin: 8px 0;
+  top: 22px; 
+  padding-left: 2.2rem; 
+  
+  background: #d9d9d9;
+  border: 1px solid #261825;
+  box-shadow: inset 0px 0px 10px 4px rgba(38, 24, 37, 0.5);
+  border-radius: 100px;
+  outline: none;
+  resize: none;
+}
+
+.comment-form-textarea::selection {
+  border: 1px solid #261825;
+}
+
+.comment-form-button {
+  width: 6rem;
+  height: 2rem;
+  float: right;
+
+  font-size: 1rem;
+  text-align: center;
+  color: #000000;
+
+  border-radius: 25px;
+  background: #d9d9d9;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: #d9d9d9;
+  border: 1px solid #341933;
+}
+
+.comment-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+  border: 1px solid #341933;
+}
+
+.comment-form-cancel-button {
+  margin-right: 0.6rem;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+
+.comment-image-container {
+  margin-right: 0.75rem;
+}
+
+.comment-image-container img {
+  border-radius: 3.1rem;
+}
+
+.comment-right-part {
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 0.5rem;
+
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.comment-author-data {
+  padding-top: 0.3rem;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.comment-text {
+  font-size: 18px;
+}
+
+.comment-actions {
+  display: flex;
+  font-size: 12px;
+  color: white;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.comment-action {
+  margin-right: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}
+
+#verMais {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding-bottom: 1rem;
+}

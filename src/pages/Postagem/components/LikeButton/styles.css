@@ -1,0 +1,7 @@
+.btn_curtir {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    color: aquamarine;
+}
+

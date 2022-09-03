@@ -1,6 +1,8 @@
-.container-postagem {
-  width: 100vw;
-  height: 3447px;
-  box-sizing: border-box;
-  position: relative;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.container-home {
+    width: 100vw;
+    height: 2419px;
+    position: relative;
+    background-color: #222222;
 }
