@@ -16,7 +16,6 @@ export default function SignUp() {
     })
 
     const [warning, setWarning] = React.useState(null)
-    const [success, setSuccess] = React.useState(null)
 
     const handleChange = (e) => {
         setForm({
@@ -81,10 +80,10 @@ export default function SignUp() {
                 confirm_password: ''
             })
 
-            setSuccess('Usuário cadastrado com sucesso!')
+            setWarning('Usuário cadastrado com sucesso!')
 
             setTimeout(() => {
-                setSuccess(null)
+                setWarning(null)
                 navigate('/sign-in')
             }, 3000)
         }
@@ -184,7 +183,6 @@ export default function SignUp() {
                         <button className="sign-up__button">Cadastre-se</button>
                         
                         { <span className='warning'>{ warning }</span> }
-                        { <span className='success'>{ success }</span> }
 
                         <Link to="/sign-in" className="sign-in__link">
                             <button className="sign-in__button">Login</button>
