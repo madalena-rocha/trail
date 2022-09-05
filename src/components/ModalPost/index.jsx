@@ -1,8 +1,13 @@
 import './style.css';
 import Comments from '../comments/Comments';
 import {IoMdCloseCircleOutline} from 'react-icons/io'
+import { useNavigate } from 'react-router-dom';
+
 
 const ModalPost = (props) => {
+  const navigate = useNavigate();
+  const handleProfile = () => {
+    navigate('/profile');}
   return (
     <div className='modal__post'>
           <div className='modal__post___body'>
@@ -16,7 +21,7 @@ const ModalPost = (props) => {
               <div className='modal__post___profile'>
                 <img className='modal__post___photo' src={props.user.perfil_photo} alt="" />
                 <div className='modal__post___info'>
-                  <span>{props.user.username}</span>
+                  <span onClick={handleProfile} >{props.user.username}</span>
                   <br />
                   <span>{props.user.date}</span>
                 </div>
