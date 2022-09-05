@@ -5,6 +5,8 @@ import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function SignUp() {
+    alert("Aviso de privacidade: \n\nNosso site coleta e utiliza alguns dados pessoais seus, de forma a aprimorar sua experiência como usuário. Tendo em vista a preservação de sua privacidade, asseguramos que seus dados pessoais não serão compartilhados.")
+
     const navigate = useNavigate()
 
     const [form, setForm] = React.useState({
