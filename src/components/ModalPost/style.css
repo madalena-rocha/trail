@@ -71,7 +71,9 @@
 
   cursor: pointer
 }
-
+.modal__post___info {
+  cursor: pointer;
+}
 .modal__post___text {
   width: 100%;
   min-height: 10rem;
