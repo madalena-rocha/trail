@@ -1,6 +1,6 @@
 .row__card {
-  max-width: 34.5rem;
-  height: 39.5rem;
+  max-width: 32rem;
+  height: 37rem;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 .card__intro {
   padding: 2rem;
   background: linear-gradient(hsl(0 0% 0% / 0), hsl(20 0% 0% / .3) 20%, 
-  hsl(0 0% 13% / 1));
+  hsl(0 0% 0% / 1));
   transform: translateY(72%);
   transition: transform 500ms ease;
 }
@@ -84,8 +84,9 @@
   position: relative;
   width: max-content;
   color: #FFFFFF;
+  text-shadow: 3px 3px 2px #0f0f0f;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 2rem;
   
 }
 
@@ -97,6 +98,7 @@
   bottom: -2px;
   width: calc(100% + 2rem);
   background: #9B57DE;
+  box-shadow: 3px 3px 4px #0f0f0f;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 500ms ease;
@@ -108,7 +110,8 @@
 }
 
 .card__intro___text {
-  color: rgb(255 255 255 / 0.85);
+  color: rgb(255 255 255 / 0.95);
+  text-shadow: 3px 3px 2px #0f0f0f;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2rem;

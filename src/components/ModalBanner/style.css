@@ -14,7 +14,7 @@
   width: 120rem;
   height: 60rem;
   background-color: #181818;
-  box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+  box-shadow: 0px 0px 30px rgba(0,0,0,1);
   border-radius: 1rem;
 
   display: flex;
@@ -82,7 +82,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 1.2rem;
+  width: 1rem;
 }
 
 ::-webkit-scrollbar-track {
