@@ -64,7 +64,7 @@
 .modal__post___photo {
   width: 4.5rem;
   height: 4.5rem;
-  border: 2px solid white;
+  border: 2px solid #9B57DE;
   border-radius: 50%;
 
   background-size: cover;
@@ -95,7 +95,7 @@
 }
 
 .comments-title {
-  border-bottom: 1.5px solid #a5a5a54b;
+  border-bottom: 1.5px solid rgba(165, 165, 165, 0.294);
   margin: 0 3rem .5rem 0;
 }
 

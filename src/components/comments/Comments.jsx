@@ -42,7 +42,7 @@ const Comments = ({ commentsUrl, currentUserId }) => {
     });
   };
   const deleteComment = (commentId) => {
-    if (window.confirm("Are you sure you want to remove comment?")) {
+    if (window.confirm("Tem certeza de que deseja remover o comentário?")) {
       deleteCommentApi().then(() => {
         const updatedBackendComments = backendComments.filter(
           (backendComment) => backendComment.id !== commentId

@@ -38,7 +38,7 @@ const Comment = ({
       <div className="comment-right-part">
         <div className="comment-content">
           <div className="comment-author">{comment.username}</div>
-          <div>{createdAt}</div>
+          <div className='comment-author__date"'>{createdAt}</div>
         </div>
         {!isEditing && <div className="comment-text">{comment.body}</div>}
         {isEditing && (
@@ -60,7 +60,7 @@ const Comment = ({
                 setActiveComment({ id: comment.id, type: "replying" })
               }
             >
-              Reply
+              Responder
             </div>
           )}
           {canEdit && (
@@ -70,7 +70,7 @@ const Comment = ({
                 setActiveComment({ id: comment.id, type: "editing" })
               }
             >
-              Edit
+              Editar
             </div>
           )}
           {canDelete && (
@@ -78,7 +78,7 @@ const Comment = ({
               className="comment-action"
               onClick={() => deleteComment(comment.id)}
             >
-              Delete
+              Deletar
             </div>
           )}
         </div>
