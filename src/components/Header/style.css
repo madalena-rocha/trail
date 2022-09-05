@@ -53,6 +53,10 @@
   height: 5rem;
   border-radius: 50%;
   border: .2rem solid #FFFFFF;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__setting { 
