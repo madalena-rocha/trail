@@ -4,8 +4,9 @@ import signup__img from '../../assets/images/img-signup.png'
 import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
 
+alert("Aviso de privacidade: \n\nNosso site coleta e utiliza alguns dados pessoais seus, de forma a aprimorar sua experiência como usuário. Tendo em vista a preservação de sua privacidade, asseguramos que seus dados pessoais não serão compartilhados.")
+
 export default function SignUp() {
-    alert("Aviso de privacidade: \n\nNosso site coleta e utiliza alguns dados pessoais seus, de forma a aprimorar sua experiência como usuário. Tendo em vista a preservação de sua privacidade, asseguramos que seus dados pessoais não serão compartilhados.")
 
     const navigate = useNavigate()
 
@@ -48,7 +49,7 @@ export default function SignUp() {
             return
         }
 
-        if (form.password != form.confirm_password) {
+        if (form.password !== form.confirm_password) {
             setWarning('Confirme a senha informada.')
             
             setTimeout(() => {
