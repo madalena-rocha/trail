@@ -49,10 +49,14 @@
     font-size: 1.6rem;
     line-height: 1.9rem;
 
-    color: #505050;
+    color: #303030;
 
     border: none;
     border-bottom: 2.5px solid black;
+}
+
+.sign-up__input::placeholder {
+    color: #808080;
 }
 
 .sign-up__button__group .sign-in__button {
