@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./styles.css";
 import LikeButton from "../LikeButton";
 
-import { data } from "./service/data";
-import { FaChevronLeft, FaChevronRight, FaCommentAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { data } from "../../service/data";
+import { FaChevronLeft, FaChevronRight, FaCommentAlt, FaRegEdit } from "react-icons/fa";
 
 const PreviousBtn = (props) => {
   // console.log(props);
@@ -28,7 +28,7 @@ const NextBtn = (props) => {
 const Carousel = () => {
   return (
     <div className="container-carousel">      
-      <a id="icone-carousel" href="algum lugar" alt="ícone"><FaMapMarkerAlt /></a>
+      <a id="icone-carousel" href="algum lugar" alt="ícone"><FaRegEdit /></a>
       <div className="carousel">
         <Slider
           autoplay
@@ -62,7 +62,7 @@ const Carousel = () => {
               <img
                 src={item}
                 alt=""
-                style={{ width: "100%", height: "25rem", objectFit: "cover" }}
+                style={{ width: "100%", height: "43rem", objectFit: "cover" }}
               />
             </div>
           ))}
@@ -71,7 +71,7 @@ const Carousel = () => {
           <LikeButton />
         </div>
         <div className="btn-msg">
-          <a href="#comments">
+          <a href="#comment">
             <FaCommentAlt />
           </a>
         </div>

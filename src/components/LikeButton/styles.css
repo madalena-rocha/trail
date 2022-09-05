@@ -1,0 +1,11 @@
+.btn_curtir {
+    display: flex;
+    width: 150px;
+    height: 150px;
+
+    margin: auto;
+    cursor: pointer;
+    color: rgb(250, 204, 247);
+    background: none;
+}
+

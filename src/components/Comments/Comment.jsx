@@ -1,6 +1,6 @@
 import CommentForm from "./CommentForm";
 
-import UserIcon from '../../assets/img/user-icon.png';
+import UserIcon from '../../assets/images/user-icon.png';
 
 const Comment = ({
   comment,

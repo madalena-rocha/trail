@@ -1,17 +1,19 @@
 import React from "react";
 import Header from '../../components/Header';
-import Navbar from '../../components/Navbar';
+import PerfilPost from '../../components/PerfilPost';
 import HeaderLine from '../../components/HeaderLine';
 import Carousel from '../../components/Carousel';
 import Comments from '../../components/Comments';
 
+
 import './styles.css';
 
-function Home() {
+function Postagem() {
   return (
-    <div className="container-home">
-      <Navbar />
+    <div className="container-postagem">
+      {/* <Navbar /> */}
       <Header />
+      <PerfilPost />
       <HeaderLine />
       <Carousel />
       <Comments />
@@ -19,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Postagem;
