@@ -95,9 +95,10 @@ export default function SignIn() {
                             <button className="sign-up__button">Cadastre-se</button>
                         </Link>
                     </div>
+                    
                 </form>
 
-                <img className='sign-in__img' src={signin__img} alt='Pessoa de costas observando a aurora boreal.' />
+                <img className='sign-in__img' src={signin__img} alt='Imagem de pessoa de costas observando a aurora boreal.' />
             </section>
         </Container>
     )
