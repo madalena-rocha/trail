@@ -11,6 +11,7 @@ import Phrase from "../../components/Phrase";
 import ModalPost from '../../components/ModalPost';
 import Card from '../../components/Card';
 import SearchInput from '../../components/searchInput';
+import CookieConsent, { Cookies } from "react-cookie-consent";
 
 
 const Home = () => {
@@ -63,6 +64,16 @@ const Home = () => {
         </Posts>
       </Main>
       <Footer/>
+      <CookieConsent
+        location = "bottom" 
+        buttonText = "Aceitar cookies" 
+        cookieName = "myAwesomeCookieName2" 
+        style = { {  background : "#2B373B"  } } 
+        buttonStyle = { {  background : "#181818", color : "#FFFFFF" ,  fontSize : "20px"  } } 
+        expires = { 150 } 
+      >
+        Este site usa cookies para melhorar a experiência do usuário.
+      </CookieConsent>
       {showModal && <ModalPost user={user} setShowModal={setShowModal}/>}
     </Container>
   );

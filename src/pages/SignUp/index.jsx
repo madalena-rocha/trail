@@ -4,8 +4,6 @@ import signup__img from '../../assets/images/img-signup.png'
 import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
 
-alert("Aviso de privacidade: \n\nNosso site coleta e utiliza alguns dados pessoais seus, de forma a aprimorar sua experiência como usuário. Tendo em vista a preservação de sua privacidade, asseguramos que seus dados pessoais não serão compartilhados.")
-
 export default function SignUp() {
 
     const navigate = useNavigate()
@@ -19,6 +17,7 @@ export default function SignUp() {
     })
 
     const [warning, setWarning] = React.useState(null)
+    const [success, setSuccess] = React.useState(null)
 
     const handleChange = (e) => {
         setForm({
@@ -83,10 +82,10 @@ export default function SignUp() {
                 confirm_password: ''
             })
 
-            setWarning('Usuário cadastrado com sucesso!')
+            setSuccess('Usuário cadastrado com sucesso!')
 
             setTimeout(() => {
-                setWarning(null)
+                setSuccess(null)
                 navigate('/sign-in')
             }, 3000)
         }
@@ -186,6 +185,7 @@ export default function SignUp() {
                         <button className="sign-up__button">Cadastre-se</button>
                         
                         { <span className='warning'>{ warning }</span> }
+                        { <span className='success'>{ success }</span> }
 
                         <Link to="/sign-in" className="sign-in__link">
                             <button className="sign-in__button">Login</button>
