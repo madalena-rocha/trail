@@ -2,6 +2,7 @@ import './style.css';
 import Comments from '../comments/Comments';
 import {IoMdCloseCircleOutline} from 'react-icons/io'
 import { useNavigate } from 'react-router-dom';
+import { AiOutlineHeart } from 'react-icons/ai';
 
 
 const ModalPost = (props) => {
@@ -28,6 +29,10 @@ const ModalPost = (props) => {
               </div>
 
               <p className='modal__post___text'>{props.user.text}</p>
+              
+              <div className='modas__post___like'>
+                <AiOutlineHeart/>
+              </div>
 
               <h3 className="comments-title">Commentários</h3>
 

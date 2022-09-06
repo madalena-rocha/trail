@@ -78,7 +78,7 @@
   width: 100%;
   min-height: 10rem;
   max-height: 35rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   margin-top: 3rem;
   font-size: 1.8rem;
   line-height: 2.8rem;
@@ -92,6 +92,17 @@
 .modal__post___text:hover::-webkit-scrollbar-thumb {
   background-color: transparent;
   border: 1px solid #828282;
+}
+
+.modas__post___like {
+  color: #828282;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.modas__post___like:hover {
+  color: #ffffff;
 }
 
 .comments-title {
