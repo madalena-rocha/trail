@@ -34,7 +34,7 @@ const ModalPost = (props) => {
                 <AiOutlineHeart/>
               </div>
 
-              <h3 className="comments-title">Commentários</h3>
+              <h3 className="comments-title">Comentários</h3>
 
               <div className='modal__post___comments'>
                   <Comments
