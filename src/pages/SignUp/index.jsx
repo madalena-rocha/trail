@@ -3,6 +3,7 @@ import * as React from 'react'
 import signup__img from '../../assets/images/img-signup.png'
 import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
+import ContainerAccess from '../../components/ContainerAccess'
 
 export default function SignUp() {
 
@@ -92,7 +93,7 @@ export default function SignUp() {
     }
 
     return (
-        <Container>
+        <ContainerAccess>
             <section className="sign-up">
                 <img className='sign-up__img' src={signup__img} alt='Pessoa de costas observando um lago e uma montanha.' />
 
@@ -193,6 +194,6 @@ export default function SignUp() {
                     </div>
                 </form>
             </section>
-        </Container>
+        </ContainerAccess>
     )
 }
