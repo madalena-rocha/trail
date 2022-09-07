@@ -1,7 +1,6 @@
 import './styles.css'
 import * as React from 'react'
 import signup__img from '../../assets/images/img-signup.png'
-import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
 import ContainerAccess from '../../components/ContainerAccess'
 
