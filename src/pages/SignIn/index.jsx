@@ -3,6 +3,7 @@ import * as React from 'react'
 import signin__img from '../../assets/images/img-signin.png'
 import Container from '../../components/Container'
 import { Link, useNavigate } from 'react-router-dom'
+import ContainerAccess from '../../components/ContainerAccess'
 
 export default function SignIn() {
     const navigate = useNavigate()
@@ -52,7 +53,7 @@ export default function SignIn() {
     }
 
     return (
-        <Container>
+        <ContainerAccess>
             <section className="sign-in">
                 <form
                     className="sign-in__form"
@@ -99,6 +100,6 @@ export default function SignIn() {
 
                 <img className='sign-in__img' src={signin__img} alt='Pessoa de costas observando a aurora boreal.' />
             </section>
-        </Container>
+        </ContainerAccess>
     )
 }
