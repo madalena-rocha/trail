@@ -1,0 +1,140 @@
+.modal__post {
+  position: fixed;
+  z-index: 100;
+  
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__post___body {
+  width: 144rem;
+  height: 90rem;
+  background-color: #181818;
+  box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  border-radius: 1rem;
+
+  display: flex;
+ 
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.modal__post___item {
+  width: 60%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.modal__post___item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.modal__post___contents {
+  max-width: 40%;
+  padding: 2rem 2rem 5rem 2rem;
+
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__post___profile {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem 0 0;
+  gap: 1rem;
+}
+
+.modal__post___photo {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 2px solid #9B57DE;
+  border-radius: 50%;
+
+  background-size: cover;
+
+  cursor: pointer
+}
+.modal__post___info {
+  cursor: pointer;
+}
+.modal__post___text {
+  width: 100%;
+  min-height: 10rem;
+  max-height: 35rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  overflow-y: auto;
+}
+
+.modal__post___text::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.modal__post___text:hover::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid #828282;
+}
+
+.modas__post___like {
+  color: #828282;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.modas__post___like:hover {
+  color: #ffffff;
+}
+
+.comments-title {
+  border-bottom: 1.5px solid rgba(165, 165, 165, 0.294);
+  margin: 0 3rem .5rem 0;
+}
+
+.modal__post___close {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  font-size: 3rem;
+  top: 2rem;
+  right: 2rem;
+
+  color: #ffffff49;
+}
+
+.modal__post___close:hover {
+  color: #ffffff;
+}
+
+.modal__post___comments {
+  overflow-Y: scroll;
+  height: 100%;
+}
+
+.modal__post___comments::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.modal__post___comments:hover::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid #828282;
+}

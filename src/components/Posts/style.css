@@ -1,0 +1,40 @@
+.posts__filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter__dropdown {
+  all: unset;
+  border: 2px solid #ffffff;
+  border-radius: 5rem;
+
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  padding: .8rem 1.5rem;
+  margin: 2rem 0;
+
+  cursor: pointer;
+}
+
+.posts__row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.posts__load {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5rem;
+}

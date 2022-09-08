@@ -1,0 +1,86 @@
+.box__profile {
+  position: absolute;
+  z-index: 4;
+
+  margin: 29rem 2.2rem;
+  left: 0;
+}
+
+.profile__about {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.8rem;
+
+}
+
+.profile__about___photo {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 2rem;
+  border: 2px solid #9B57DE;
+  box-shadow: 5px 6px 7px 2px rgb(0 0 0 / 25%);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.profile__about___account {
+  display: flex;
+  flex-direction: column;
+
+  color: #FFFFFF;
+}
+
+.account__name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+
+  text-shadow: 3px 3px 3px #0f0f0f;
+}
+
+.account__reference {
+  color: rgb(255 255 255 / 0.85);
+  text-shadow: 3px 3px 3px #0f0f0f;
+}
+
+.btn__unfollow, .btn__follow {
+  all: unset;
+
+  width: 88px;
+  height: 31.68px;
+  
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+
+  margin-top: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0 #00000073;
+  transition: all 0.3s;
+}
+
+.btn__unfollow:hover, .btn__follow:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 6px 7px 2px rgb(0 0 0 / 25%);
+}
+
+.btn__follow {
+  background: #9B57DE;
+}
+
+.profile__description {
+  max-width: 41rem;
+  margin-top: 3.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #FFFFFF;
+  
+}

@@ -1,0 +1,28 @@
+.container__access {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #222222;
+  background-image: linear-gradient(180deg, #222222 0%, #41255c 100%);
+  
+  position: relative;
+}
+
+.access__btn___return {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  font-size: 4rem;
+  top: 5rem;
+  left: 5rem;
+
+  color: #ffffff49;
+}
+
+.access__btn___return:hover {
+  color: #ffffff;
+}
