@@ -30,7 +30,7 @@ const Home = () => {
 
   React.useEffect(() => {
     const getUsers = async () => {
-      const response = await axios.get('https://api-trail.herokuapp.com/posts');
+      const response = await axios.get('https://trail-api.onrender.com/posts');
       setUsers(response.data);
       setInitialRepos(response.data)
     }

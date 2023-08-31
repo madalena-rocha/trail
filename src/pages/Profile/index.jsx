@@ -29,7 +29,7 @@ export default function Profile () {
 
   React.useEffect(() => {
     const getUsers = async () => {
-      const response = await axios.get('https://api-trail.herokuapp.com/posts?username=@devjunior');
+      const response = await axios.get('https://trail-api.onrender.com/posts?username=@devjunior');
       setUsers(response.data);
       setInitialRepos(response.data)
     }

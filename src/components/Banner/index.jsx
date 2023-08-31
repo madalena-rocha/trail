@@ -11,7 +11,7 @@ const Banner = () => {
 
   React.useEffect(() => {
     const getContents = async () => {
-      const response = await axios.get('https://api-trail.herokuapp.com/banner');
+      const response = await axios.get('https://trail-api.onrender.com/banner');
       setContents(response.data);
     }
     getContents();
