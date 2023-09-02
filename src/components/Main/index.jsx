@@ -1,11 +1,7 @@
-import './style.css'
+import "./style.css";
 
-const Main = ({children}) => {
-  return (
-    <main className='main'>
-      {children}
-    </main>
-  )
-}
+const Main = ({ children }) => {
+  return <main className="main">{children}</main>;
+};
 
 export default Main;

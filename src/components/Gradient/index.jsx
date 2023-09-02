@@ -1,11 +1,7 @@
-import './style.css'
+import "./style.css";
 
 const Gradient = () => {
-
-  return (
-    <div className='banner__gradient'></div>
-  );
-
-}
+  return <div className="banner__gradient"></div>;
+};
 
 export default Gradient;

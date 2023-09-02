@@ -1,124 +1,123 @@
 .sign-in {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    border-radius: 2rem;
+  border-radius: 2rem;
 
-    background-color: #222222;
-    box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  background-color: #222222;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 
-    margin: auto;
+  margin: auto;
 }
 
 .sign-in__form {
-    display: flex;
-    flex-direction: column;
-    
-    
-    width: 53.6rem;
-    padding: 3.4rem 2.75rem 3.4rem 8rem;
+  display: flex;
+  flex-direction: column;
 
-    border-radius: 20px 0px 0px 20px;
-    
-    position: relative;
+  width: 53.6rem;
+  padding: 3.4rem 2.75rem 3.4rem 8rem;
+
+  border-radius: 20px 0px 0px 20px;
+
+  position: relative;
 }
 
 .sign-in__title {
-    font-weight: 700;
-    font-size: 3.6rem;
-    line-height: 4.4rem;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
 
-    color: #9B57DE;
-    
-    margin: 0 auto;
-    margin-bottom: 7.3rem;
+  color: #9b57de;
+
+  margin: 0 auto;
+  margin-bottom: 7.3rem;
 }
 
 .sign-in__label {
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+
+  color: #ffffff;
 }
 
 .sign-in__input {
-    height: 4.1rem;
-    padding: 0 1rem;
-    margin-bottom: 3.2rem;
+  height: 4.1rem;
+  padding: 0 1rem;
+  margin-bottom: 3.2rem;
 
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
 
-    color: #D7D7D7;
-    background-color: #222222;
+  color: #d7d7d7;
+  background-color: #222222;
 
-    border: none;
-    border-bottom: 2.5px solid white;
+  border: none;
+  border-bottom: 2.5px solid white;
 }
 
 .sign-in__button,
 .sign-up__button {
-    width: 16.5rem;
-    height: 4.8rem;
+  width: 16.5rem;
+  height: 4.8rem;
 
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 
-    border: none;
-    border-radius: 15px;
+  border: none;
+  border-radius: 15px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sign-in__button:hover,
 .sign-up__button:hover {
-    filter: brightness(1.2);
+  filter: brightness(1.2);
 }
 
 .sign-in__button__group .sign-in__button,
 .sign-in__button__group .sign-up__button:hover {
-    background: #9B57DE;
-    color: #FFFFFF;
+  background: #9b57de;
+  color: #ffffff;
 }
 
 .sign-in__button__group .sign-up__button {
-    background: #222222;
-    color: #9B57DE;
+  background: #222222;
+  color: #9b57de;
 }
 
 .sign-in__img {
-    height: 100%;
-    width: 50%;
-    border-radius: 0px 20px 20px 0px;
+  height: 100%;
+  width: 50%;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .sign-in__button__group {
-    margin: 0 auto;
-    margin-top: 4.1rem;
+  margin: 0 auto;
+  margin-top: 4.1rem;
 
-    display: flex;
-    gap: 2.9rem;
+  display: flex;
+  gap: 2.9rem;
 }
 
 .warning {
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 2rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
 
-    color: orange;
+  color: orange;
 
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .sign-in .warning {
-    top: 74.5%;
-    width: 36.1rem;
+  top: 74.5%;
+  width: 36.1rem;
 }

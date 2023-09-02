@@ -1,7 +1,7 @@
 .modal__post {
   position: fixed;
   z-index: 100;
-  
+
   width: 100vw;
   height: 100vh;
 
@@ -11,14 +11,14 @@
 }
 
 .modal__post___body {
-  width: 144rem;
+  max-width: 144rem;
   height: 90rem;
   background-color: #181818;
-  box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   border-radius: 1rem;
 
   display: flex;
- 
+
   justify-content: space-between;
 
   position: relative;
@@ -64,12 +64,12 @@
 .modal__post___photo {
   width: 4.5rem;
   height: 4.5rem;
-  border: 2px solid #9B57DE;
+  border: 2px solid #9b57de;
   border-radius: 50%;
 
   background-size: cover;
 
-  cursor: pointer
+  cursor: pointer;
 }
 .modal__post___info {
   cursor: pointer;
@@ -94,20 +94,20 @@
   border: 1px solid #828282;
 }
 
-.modas__post___like {
+.modal__post___like {
   color: #828282;
   font-size: 2.5rem;
   margin-bottom: 2rem;
   cursor: pointer;
 }
 
-.modas__post___like:hover {
+.modal__post___like:hover {
   color: #ffffff;
 }
 
 .comments-title {
   border-bottom: 1.5px solid rgba(165, 165, 165, 0.294);
-  margin: 0 3rem .5rem 0;
+  margin: 0 3rem 0.5rem 0;
 }
 
 .modal__post___close {
@@ -126,7 +126,7 @@
 }
 
 .modal__post___comments {
-  overflow-Y: scroll;
+  overflow-y: scroll;
   height: 100%;
 }
 

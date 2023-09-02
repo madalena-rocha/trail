@@ -1,7 +1,6 @@
-import './style.css'
-import perfil from '../../assets/images/profile-picture.png'
-import CommentForm from './CommentForm';
-
+import "./style.css";
+import profile from "../../assets/images/profile-picture.png";
+import CommentForm from "./CommentForm";
 
 const Comment = ({
   comment,
@@ -33,7 +32,7 @@ const Comment = ({
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src={perfil} alt='Foto do perfil'/>
+        <img src={profile} alt="Foto do perfil" />
       </div>
       <div className="comment-right-part">
         <div className="comment-content">

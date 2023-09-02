@@ -21,9 +21,9 @@
 
 .header__access___btn {
   all: unset;
-  
-  border: .2rem solid #9B57DE;
-  border-radius: .5em;
+
+  border: 0.2rem solid #9b57de;
+  border-radius: 0.5em;
   padding: 0 1rem;
   height: 4.2rem;
 
@@ -31,19 +31,19 @@
   font-size: 1.8rem;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   cursor: pointer;
 }
 
 .header__access___btn:hover {
-  color: #FFFFFF;
-  background: #9B57DE;
-  border: .2rem solid #FFFFFF;
-  border-radius: .5em;
+  color: #ffffff;
+  background: #9b57de;
+  border: 0.2rem solid #ffffff;
+  border-radius: 0.5em;
 }
 
-.header__acess___profile {
+.header__access___profile {
   display: flex;
   align-items: center;
 }
@@ -52,15 +52,15 @@
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  border: .2rem solid #FFFFFF;
+  border: 0.2rem solid #ffffff;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.header__setting { 
-  margin-left:  2rem;
+.header__setting {
+  margin-left: 2rem;
   cursor: pointer;
 }
 
@@ -74,12 +74,11 @@
   top: 7rem;
   right: 3.9rem;
 
-
   width: 13rem;
   height: 7.5rem;
 
-  background: #9B57DE;
-  border: 0.2rem solid #FFFFFF;
+  background: #9b57de;
+  border: 0.2rem solid #ffffff;
   box-shadow: 2px 6px 10px 5px rgba(0, 0, 0, 0.52);
   border-radius: 0.5rem;
 
@@ -88,10 +87,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
-  line-height: 22px;
+  line-height: 2.2rem;
 }
 
 .header__menu p {
-  padding: 5px 0;
+  padding: 0.5rem 0;
   cursor: pointer;
 }

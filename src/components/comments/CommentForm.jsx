@@ -1,4 +1,4 @@
-import './style.css'
+import "./style.css";
 import { useState } from "react";
 
 const CommentForm = ({
@@ -16,10 +16,10 @@ const CommentForm = ({
     setText("");
   };
   return (
-    <form className='comment-form' onSubmit={onSubmit}>
+    <form className="comment-form" onSubmit={onSubmit}>
       <textarea
         className="comment-form-textarea"
-        placeholder='Escreva seu comentário'
+        placeholder="Escreva seu comentário"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
